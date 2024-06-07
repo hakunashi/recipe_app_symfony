@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Recipes!{% endblock %}
+
+{% block body %}
+
+    {% for recipe in recipes %}
+
+    <p> {{ recipe.name }} </p>
+
+    {% endfor %}
+
+{% endblock %}

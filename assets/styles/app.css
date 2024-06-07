@@ -1,3 +1,21 @@
 body {
-    background-color: skyblue;
+  background-color: #a3c5f4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+body nav {
+  background-color: #5a65a2;
+  margin: 0;
+}
+body nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 20px;
+}
+body nav ul li a, body nav ul li a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}/*# sourceMappingURL=app.css.map */
